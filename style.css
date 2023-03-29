@@ -1,0 +1,50 @@
+/*
+ Theme Name: 	Soleng Child Theme
+ Theme URI: 	http://soleng.axiomthemes.com/
+ Description: 	Soleng Child Theme
+ Author: 		Axiomthemes
+ Author URI: 	http://axiomthemes.com/
+ Template: 		soleng
+ Version: 		1.0
+ License:      	GNU General Public License v2 or later
+ License URI:  	http://www.gnu.org/licenses/gpl-2.0.html 
+ Tags: 			flexible-header, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+ Text Domain: 	soleng_child
+*/
+
+.menu-item-has-children > a {
+    text-transform: uppercase !important;
+    font-family: 'Kanit', sans-serif !important;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px !important;
+}
+
+.sub-menu {
+    font-size:14px;
+    top:50px !important;
+    padding: 1em 0 !important;
+    width: max-content !important;
+}
+
+.sub-menu > li {
+    text-align: left;
+    border-top: 1px solid rgba(242, 242, 242, 0.9);
+}
+
+.sub-menu > li > a {
+    font-family: 'Kanit', sans-serif !important;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 1px !important;
+    padding: 10px 20px;
+}
+
+.scheme_default .sc_layouts_menu_nav>li>a:hover, .scheme_default .sc_layouts_menu_nav>li.sfHover>a, .scheme_default .sc_layouts_menu_nav>li li>a:hover {
+    color: #3fa34d !important;
+    background-color: transparent !important;
+}
+
+.tp-bullet.selected{
+    background-color: #3fa34d !important;
+}
