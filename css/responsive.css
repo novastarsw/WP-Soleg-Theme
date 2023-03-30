@@ -173,3 +173,33 @@ body.body_style_wide {
     color: #3fa34d !important;
     background-color: transparent !important;
 }
+
+.scheme_default .sc_icons.sc_icons_image .sc_icons_item_title{
+    color: #3fa34d !important;
+}
+
+.scheme_default .sc_icons.sc_icons_image .sc_icons_item_title:after{
+    color: #3fa34d;
+    background-color: #3fa34d;
+}
+
+.scheme_default .sc_button_simple.color_style_link2:not(.sc_button_bg_image){
+    color: #3fa34d;
+}
+
+.scheme_default .sc_button_simple.color_style_link2:not(.sc_button_bg_image):after{
+    color: #3fa34d;
+    background-color: #3fa34d;
+}
+
+.scheme_default .sc_title_title:after{
+    background-color: #3fa34d;
+}
+
+.scheme_default .sc_icons.sc_icons_modern .sc_icons_item_title{
+    color: #3fa34d;
+}
+
+.scheme_default .sc_icons.sc_icons_modern .sc_icons_item_title:after{
+    background-color: #3fa34d;
+}
