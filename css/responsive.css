@@ -1,9 +1,21 @@
+@media (max-width: 1920px){
+    .content_wrap {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 1600px){
+    .content_wrap {
+        width: 1300px;
+    }
+}
+
 @media (max-width: 1439px){
     .content_wrap {
         width: 100% !important;
     }
     .home_featured_products > .sc_layouts_column_icons_position_left {
-        padding: 0.4em 4rem;
+        padding: 0.4em 2rem;
     }
 }
 
@@ -15,6 +27,7 @@
         padding: 0.4em 2rem;
     }
 }
+
 
 
 /* 
@@ -78,9 +91,7 @@ body {
 }  
 */
 
-header {
-    padding: 0 2.45rem !important;
-}
+
 
 body.body_style_wide {
     padding: 0 0;
