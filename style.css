@@ -48,3 +48,7 @@
 .tp-bullet.selected{
     background-color: #3fa34d !important;
 }
+
+.spinner0 {
+    position:fixed;
+}
