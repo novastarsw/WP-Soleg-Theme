@@ -12,6 +12,18 @@
  Text Domain: 	soleng_child
 */
 
+::selection{
+    color:white;
+    background:#3fa34d;
+}
+
+body {
+    background-color: #656565;
+}
+.spinner0 {
+    position:fixed;
+}
+
 .menu-item-has-children > a {
     text-transform: uppercase !important;
     font-family: 'Kanit', sans-serif !important;
@@ -40,6 +52,9 @@
     padding: 10px 20px;
 }
 
+.scheme_default .sc_layouts_menu_nav>li>a {
+    color: rgba(44, 62, 80, 0.9);
+}
 .scheme_default .sc_layouts_menu_nav>li>a:hover, .scheme_default .sc_layouts_menu_nav>li.sfHover>a, .scheme_default .sc_layouts_menu_nav>li li>a:hover {
     color: #3fa34d !important;
     background-color: transparent !important;
@@ -49,6 +64,6 @@
     background-color: #3fa34d !important;
 }
 
-.spinner0 {
-    position:fixed;
+.sc_item_title{
+
 }

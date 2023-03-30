@@ -81,19 +81,10 @@ body {
 header {
     padding: 0 2.45rem !important;
 }
+
 body.body_style_wide {
     padding: 0 0;
 }
-
-.home_featured_products > .sc_layouts_column_icons_position_left {
-    padding: 0.4em 6rem;
-    padding-top: 1rem !important;
-}
-
-/* .home_featured_products > .sc_layouts_column_icons_position_left > .vc_column-inner{
-    max-width: 1550px;
-    margin: auto;
-} */
 
 .woocommerce ul.products li.product {
     padding: 0 0.8em 0.8em 0 !important;
