@@ -165,3 +165,11 @@ body.body_style_wide {
     margin-top: 0.3em !important;
     /* color: #3fa34d; */
 }
+
+.scheme_default .sc_layouts_menu_nav>li.current-menu-parent>a, .scheme_default .sc_layouts_menu_nav>li.current-menu-ancestor>a{
+    color: #3fa34d !important;
+}
+.scheme_default .sc_layouts_menu_nav>li li.current-menu-item>a{
+    color: #3fa34d !important;
+    background-color: transparent !important;
+}
