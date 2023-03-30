@@ -81,3 +81,12 @@ h3 {
 .tp-bullet.selected{
     background-color: #3fa34d !important;
 }
+
+.post_layout_thumbs{
+    cursor: pointer;
+    padding: 20px 20px 0px 20px;
+}
+
+.post_data{
+    padding: 0 !important;
+}
